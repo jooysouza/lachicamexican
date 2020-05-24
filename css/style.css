@@ -385,6 +385,10 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+.pedir-container{
+    padding-top: 20px;
+}
+
 /*SIDE NAV*/
 .menu-nav input {
     background: transparent;
@@ -754,6 +758,8 @@ li.search {
     .pedir-img{
         width: 218px;
     }
+    
+    
 }
 @media(min-width:761px) and (max-width:862px){
     .pedir-img{
@@ -773,15 +779,17 @@ li.search {
         margin-left: 10px;
         max-width: 638px;
     }
-    .pedir{
+    .pedir {
         margin: 0 auto;
         font-size: 1em;
         text-align: center;
+        padding-top: 20px;
     }
     .pedir-grupo{
         max-width: 658px;
         margin-top: 14px;
     }
+    
 }
 @media(min-width:390px) and (max-width:489px){
     .pedir-img{
