@@ -401,6 +401,11 @@ img {
    font-size: 12px;
     padding-left: 10px !important;
 }
+li.search {
+    padding: 0px;
+    margin: 0 auto;
+}
+
 .carrinho {
     padding: 10px;
 }
@@ -537,11 +542,11 @@ img {
 
 /*Media Querie*/
 @media (max-width:939px){
-    .menu-nav ul{
-        border-top :none;
-        border-bottom:none;
+    .menu-nav ul {
+        border-top: none;
+        border-bottom: none;
         width: 310px;
-        padding-left: 12px;
+        padding-left: 38px;
     }
     .menu-nav .menu1{
         margin: 10px;
