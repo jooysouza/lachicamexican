@@ -1,0 +1,795 @@
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    
+	font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #111010;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+    max-width: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+.btn {
+	border: 3px solid #FFD500;
+	padding: 10px 30px;
+	color: #FFD500;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.btn:hover {
+	color: #000;
+    background: #FFD500;
+}
+
+/*Informação*/
+.info{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.info a{
+    margin: 0 10px 10px 10px;
+    border-bottom: solid 2px #FFD500;
+}
+.info a {
+    color:#fff;
+}
+.info a.menu_ativo{
+    color: #FFD500;
+}
+
+/*menu*/
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu-logo {
+    padding-top: 10px;
+    
+}
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu-nav .menu_ativo{
+    color: #FFD500;
+}
+.menu-nav .menu1 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.menu-nav ul {
+    border-top: solid 3px #FFD500;
+    border-bottom: solid 3px #FFD500;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 347px;
+    padding-left: 40px;
+    
+}
+.menu-nav .normal p {
+    color: #ffd500;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #ffd500;
+}
+.menu-nav .gradiente p {
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    background: transparent linear-gradient(58deg, #FFD500 10%, #FF5700 100%) 0% 0% no-repeat padding-box;
+  
+}
+.menu-nav a {
+    padding: 0px 0px 0px 25px;
+    display: block;
+}
+.menu-nav a:hover{
+	color: #FFD500;
+}
+
+/*opcao*/
+.opcao{
+    max-width: 960px;
+	margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.opcao-img {
+    flex: 1 1 160px;
+    padding: 10px;
+    padding-bottom: 123px;
+    margin: 0 auto;
+    
+}
+.call-opcao {
+    text-align: center;
+    margin-top: -268px;
+}
+.opcao-img .ifood {
+    margin-top: -249px;
+    padding-left: 19px;
+    width: 110px;
+}
+.opcao-img h2 {
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 700;
+    position: relative;
+    top: -301px;
+    text-align: center;
+    padding-top: 45px;
+}
+.opcao-img p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1em;
+    font-weight: 700;
+    position: relative;
+    top: -283px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+.call-unidade {
+    text-align: center;
+    margin-top: -266px;
+}
+
+/*DESTAQUE*/
+.destaque-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.destaque-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+.destaque-unidade{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.call-destaque {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 131px;
+}
+
+.destaque h1{
+   font-size: 3em;
+    padding: 0px 0px 20px 10px;
+    color: #fff;
+}
+.destaque-grupo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.destaque-img {
+    padding: 10px;
+    margin-bottom: 31px;
+    margin-top: 20px;
+    
+}
+.destaque-grupo h3{
+    width: 217px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.destaque-grupo p{
+    width: 217px;
+    text-align: center;
+    color: #fff;
+}
+
+/**Pagina CARDAPIO*/
+.cardapio-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    
+}
+.cardapio h1{
+    font-size: 3em;
+     padding: 0px 0px 20px 10px;
+     color: #fff;
+}
+ .cardapio-grupo{
+     display: flex;
+     flex-wrap: wrap;
+     
+ }
+ .cardapio-img h2{
+  
+    text-align: center;
+    
+    color: #fff;
+    text-transform: uppercase;
+}
+.cardapio-img {
+   margin-bottom: 150px;
+    padding: 5px;
+}
+
+.call-cardapio {
+    text-align: left;
+    margin-top: -300px;
+    margin-left: 10px;
+}
+.call-bebida {
+    text-align: left;
+    margin-top: -163px;
+    margin-left: 12px;
+}
+.call-sobremesa{
+    text-align: left;
+    margin-top: -190px;
+    margin-left: 10px;
+}
+.call-kids{
+    text-align: left;
+    margin-top: -91px;
+    margin-left: 10px;
+}
+
+
+/*PAGÍNA UNIDADES*/
+.unidades-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    
+}
+.unidades h1{
+    font-size: 3em;
+     padding: 0px 0px 20px 10px;
+     color: #fff;
+}
+.unidades-grupo{
+     display: flex;
+     flex-wrap: wrap;
+     
+ }
+ .unidades-img h2 {
+     padding-top: 10px;
+    text-align:left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.375em;
+}
+.unidades-img {
+    padding: 5px;
+    margin-bottom: 150px;
+}
+.unidades-img .btn{
+    border: 3px solid #FFD500;
+    padding: 12px 81px;
+    color: #FFD500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.unidades-img .btn:hover{
+   color:#fff;
+   
+}
+.call-reservas {
+    margin-top: 20px;
+}
+/*PAGINA SOBRE*/
+.sobre{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.sobre-container {
+    background: url(../imagem/sobre.jpg) no-repeat;
+    width: 440px;
+    margin: 0 auto;
+}
+.sobre-container h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.sobre-container p {
+    padding: 20px;
+    text-align: center;
+    width: 446px;
+    margin: 0 auto;
+}
+/*PÁGINA CONTATO*/
+
+.contato{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contato-container {
+    background: url(../imagem/contato.jpg) no-repeat;
+    width: 330px;
+    height: 514px;
+    margin: 0 auto;
+}
+.contato-container h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.contato-container h1 {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.contato-container p {
+    text-align: center;
+    padding-bottom: 13px;
+    width: 306px;
+    margin: 0 auto;
+}
+.contato-container a{
+   color: #FFD500;
+}
+/*PÁGINA PEDIR*/
+/*MAIN*/
+
+.main-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*SIDE NAV*/
+.menu-nav input {
+    background: transparent;
+    border-color: #FFD500;
+    padding: 5px;
+    color: #fff;
+    height: 42px;
+    margin-left: 8px;
+}
+.txt {
+    font-size: 15;
+    text-transform: uppercase;
+    display: flex;
+   font-size: 12px;
+    padding-left: 10px !important;
+}
+.carrinho {
+    padding: 10px;
+}
+.carrinho a {
+    display: flex;
+    padding-left: 27px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8.5px;
+}
+.carrinho img{
+    padding-right: 4px;
+}
+
+.side-pedir {
+    background: #252525;
+    flex: 1;
+    max-width: 450px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.side-pedir li a {
+    display: block;
+    color: #fff;
+    border-bottom: 2px solid #FFD500;
+    font-size: 1.125em;
+    padding: 20px;
+}
+
+.side-pedir li a::before {
+	content: '';
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	top: 5px;
+	margin-right: 15px;
+	position: relative;
+	background-image: url('../img/icones.png');
+}
+.side-pedir .btn {
+    color: #000;
+    background: #ffd500;
+}
+
+.nav-entradas::before {
+	background-position: 0 0;
+}
+.nav-combos::before {
+	background-position: 0 -24px;
+}
+
+.nav-marmitex::before {
+	background-position: 0 calc(-24px * 2);
+}
+
+.nav-promo::before {
+	background-position: 0 calc(-24px * 3);
+}
+
+.nav-sobremesa::before {
+	background-position: 0 calc(-24px * 4);
+}
+
+.nav-bebida::before {
+	background-position: 0 calc(-24px * 5);
+}
+.pedir-grupo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pedir-img{
+   padding: 7px;
+}
+.pedir-img h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*CARDÁPIO - PRATOS*/
+.cardapio-pratos-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.cardapio-pratos-title{
+    display: flex;
+}
+.cardapio-pratos-unidade{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.call-cardapio-pratos {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 131px;
+}
+.cardapio-pratos h1{
+   font-size: 3em;
+    padding: 0px 0px 20px 10px;
+    color: #fff;
+}
+.cardapio-pratos-grupo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cardapio-pratos-img {
+    padding: 10px;
+    margin-bottom: 31px;
+}
+.cardapio-pratos-grupo h3{
+    width: 217px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.cardapio-pratos-grupo p{
+    width: 217px;
+    text-align: center;
+    color: #fff;
+}
+
+ /*FOOTER*/
+.footer{
+    width: 100%;
+	background: #000;
+	color: #fff;
+    padding: 2px 0;
+    text-align: center;
+}
+
+/*Media Querie*/
+@media (max-width:939px){
+    .menu-nav ul{
+        border-top :none;
+        border-bottom:none;
+        width: 310px;
+        padding-left: 12px;
+    }
+    .menu-nav .menu1{
+        margin: 10px;
+    }
+    .menu{
+        max-width:480px;
+        justify-content: center;
+    }
+}  
+@media(min-width:200px) and (max-width:479px){
+    .contato-container{
+        width: 275px;
+        height: 527px;
+    }
+    .contato-container p{
+        width: 239px;
+    }
+    .contato-container h3 {
+        font-size: 1.025em;
+    }
+    .sobre-container{
+        width: 275px;
+    }
+    .sobre-container p{
+        width: 239px;
+    }
+}
+@media(min-width: 480px) and (max-width:719px){
+    .destaque-container{
+        max-width: 480px;
+        
+    }
+    .call-destaque{
+        padding-left: 10px;
+    }
+    .cardapio-container{
+        max-width: 480px;
+    }
+    .cardapio-img{
+        margin-bottom: 225px;
+    }
+    .cardapio-pratos-container {
+        max-width: 480px;
+    }
+}
+
+@media (max-width:479px){
+    .destaque-container{
+        max-width: 240px;
+    }
+    .destaque-img {
+        margin-top: 20px;
+    }
+    .destaque-title {
+        margin-top: -44px;
+    }
+    .call-destaque{
+        padding-left: 10px;
+    }
+    .opcao{
+        max-width: 360px;
+    }
+    .destaque h1{
+        font-size: 1.25em;
+        margin-top: -52px;
+    }
+    .call-destaque .btn {
+        padding: 11px 3px;
+    }
+    .contato {
+        max-width: 480px;
+    }
+    .cardapio-img{
+        margin: 0 auto;
+    }
+    .call-cardapio {
+        padding-bottom: 118px;
+        margin-top: -119px;
+    }
+    .call-bebida {
+        padding-bottom: 113px;
+        margin-top: -114px;
+    }
+    .call-sobremesa {
+        padding-bottom: 103px;
+        margin-top: -101px;
+    }
+    .call-kids{
+        padding-bottom: 40px;
+    }
+    .cardapio-pratos-container {
+        max-width: 240px;
+    }
+    .cardapio-pratos h1 {
+        font-size: 1.75em;
+    }
+}
+@media(min-width:480px) and (max-width:660px){
+    .opcao{
+        max-width: 416px;
+    }
+    .destaque h1{
+        font-size: 2.1875em;
+    }
+} 
+@media(min-width:661px) and (max-width:719px){
+    .opcao-img h2{
+        padding-top: 54px;
+        top: -271px;
+        font-size: 1.125em;
+    }
+    .opcao-img p{
+        top: -255px;
+    }
+    .call-opcao{
+        margin-top: -244px;
+    }
+    .call-unidade{
+        margin-top: -242px;
+    }
+    .opcao-img.ifood{
+        margin-top: -237px;
+    }
+    .destaque h1{
+        margin-top: -107px;
+        font-size: 2.25em;
+    }
+} 
+
+@media(min-width:720px) and (max-width:959px){
+    .destaque-title{
+        display: block;
+    }
+    .destaque h1 {
+        margin-top: -71px;
+    }
+    .opcao-img h2{
+        font-size: 1.025em;
+        top:-282px;
+    }
+    .opcao-img p{
+        top:-275px;
+    }
+    .call-opcao{
+        margin-top: -255;
+    }
+    .call-unidade{
+        margin-top: -255px;
+    }
+    .call-destaque{
+        padding-left: 10px;
+    }
+    .destaque-container{
+        max-width: 720px;
+    }
+    .cardapio-container{
+        max-width: 720px;
+    }
+    .cardapio-img{
+        width: 180px;
+    }
+    .call-sobremesa{
+        margin-top: -172px;
+        margin-left: 10px;
+    }
+    .call-kids{
+        margin-top: -79px;
+    }
+    .call-sobremesa .btn{
+        padding: 10px 6px;
+    }
+    .cardapio-pratos-container {
+        max-width: 720px;
+    }
+   
+}
+@media(min-width:640px) and (max-width:959px){
+    .unidades-container {
+        max-width: 649px;
+    }
+}
+@media(max-width:639px){
+    .unidades-container {
+        max-width: 330px;
+    }
+    .unidades-img{
+        margin:0 auto;
+    }
+    .call-reservas{
+        margin: 20px 10px 20px 43px;
+    }
+    .unidades-img .btn {
+        padding: 10px 32px;
+    }
+    
+}   
+/*Pagina Pedir*/
+@media(min-width:863px) and (max-width:911px){
+    .pedir-img{
+        width: 218px;
+    }
+}
+@media(min-width:761px) and (max-width:862px){
+    .pedir-img{
+        width: 184px;
+    }
+}
+@media(min-width:659px) and (max-width:760px){
+   .pedir-img{
+       width: 150px;
+   }
+}
+@media(min-width:390px) and (max-width:658px){
+    .pedir-img{
+        width: 163px;
+    }
+    .side-pedir{
+        margin-left: 10px;
+        max-width: 638px;
+    }
+    .pedir{
+        margin: 0 auto;
+        font-size: 1em;
+        text-align: center;
+    }
+    .pedir-grupo{
+        max-width: 658px;
+        margin-top: 14px;
+    }
+}
+@media(min-width:390px) and (max-width:489px){
+    .pedir-img{
+        width: 130px;
+    }
+    .pedir-img h3{
+        font-size: 0.9375em;
+    }
+}
+@media(max-width:389px){
+    .pedir-img{
+        width: 195px;
+        margin: 0 auto;
+    }
+    .pedir{
+        font-size:1em;
+        text-align: center;
+    }
+    .side-pedir {
+      margin-left: 10px;
+    }
+}
