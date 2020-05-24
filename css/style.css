@@ -326,7 +326,7 @@ img {
     padding: 60px 0;
 }
 .sobre-container {
-    background: url(../imagem/sobre.jpg) no-repeat;
+    background: url(../img/imagem_sobre.jpg) no-repeat;
     width: 440px;
     margin: 0 auto;
 }
@@ -351,7 +351,7 @@ img {
     flex-wrap: wrap;
 }
 .contato-container {
-    background: url(../imagem/contato.jpg) no-repeat;
+    background: url(../img/imagem_contato.jpg) no-repeat;
     width: 330px;
     height: 514px;
     margin: 0 auto;
