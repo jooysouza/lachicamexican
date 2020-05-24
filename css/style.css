@@ -542,10 +542,16 @@ li.search {
 
 /*Media Querie*/
 @media (max-width:939px){
+    .carrinho {
+        border-top: none;
+        border-bottom: none;
+        width: 378px;
+        padding-left: 38px;
+    }
     .menu-nav ul {
         border-top: none;
         border-bottom: none;
-        width: 310px;
+        width: 357px;
         padding-left: 38px;
     }
     .menu-nav .menu1{
