@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="127" viewBox="0 0 246 127">
+  <g id="logotipo1" transform="translate(-15440 -3233)">
+    <ellipse id="Elipse_8" data-name="Elipse 8" cx="122.5" cy="63.5" rx="122.5" ry="63.5" transform="translate(15440 3233)"/>
+    <g id="Elipse_9" data-name="Elipse 9" transform="translate(15450 3241)" fill="none" stroke="#ffd500" stroke-width="3">
+      <ellipse cx="112" cy="55.5" rx="112" ry="55.5" stroke="none"/>
+      <ellipse cx="112" cy="55.5" rx="110.5" ry="54" fill="none"/>
+    </g>
+    <text id="Tex-Mex" transform="translate(15519 3331)" fill="#fff" font-size="21" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Tex-Mex</tspan></text>
+    <text id="La_Chica_Mexican" data-name="La Chica Mexican" transform="translate(15449 3296)" fill="#fff" font-size="40" font-family="RougeScript-Regular, Rouge Script"><tspan x="0" y="0">La Chica Mexican</tspan></text>
+  </g>
+</svg>
