@@ -340,7 +340,7 @@ img {
 }
 .sobre-container p {
     padding-top: 20px;
-    width: 461px;
+    max-width: 440px;
     margin: 0 auto;
     font-size: 1.25em;
     line-height: 25px;
@@ -584,8 +584,8 @@ li.search {
     .sobre-container{
         width: 275px;
     }
-    .sobre-container p{
-        width: 239px;
+    .sobre-container p {
+        max-width: 275px;
     }
 }
 @media(min-width: 480px) and (max-width:719px){
