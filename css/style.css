@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li, a {
 body {
     
 	font-family: "Nunito", Helvetica, Arial, sans-serif;
-    color: #fff;
+    color: #dadada;
     background: #111010;
 }
 
@@ -330,8 +330,7 @@ img {
     padding: 60px 0;
 }
 .sobre-container {
-    background: url(../img/imagem_sobre.jpg) no-repeat;
-    width: 440px;
+     width: 440px;
     margin: 0 auto;
 }
 .sobre-container h2{
@@ -340,10 +339,11 @@ img {
     padding: 20px;
 }
 .sobre-container p {
-    padding: 20px;
-    text-align: center;
-    width: 446px;
+    padding-top: 20px;
+    width: 461px;
     margin: 0 auto;
+    font-size: 1.25em;
+    line-height: 25px;
 }
 /*PÁGINA CONTATO*/
 
@@ -582,10 +582,10 @@ li.search {
         font-size: 1.025em;
     }
     .sobre-container{
-        width: 422px;
+        width: 275px;
     }
-    .sobre-container p {
-        width: 404px;
+    .sobre-container p{
+        width: 239px;
     }
 }
 @media(min-width: 480px) and (max-width:719px){
