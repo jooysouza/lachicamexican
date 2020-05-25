@@ -293,10 +293,14 @@ img {
  }
  .unidades-img h2 {
      padding-top: 10px;
-    text-align:left;
+    text-align:center;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.375em;
+}
+.unidades-img p {
+    text-align:center;
+   
 }
 .unidades-img {
     padding: 5px;
@@ -578,10 +582,10 @@ li.search {
         font-size: 1.025em;
     }
     .sobre-container{
-        width: 275px;
+        width: 422px;
     }
-    .sobre-container p{
-        width: 239px;
+    .sobre-container p {
+        width: 404px;
     }
 }
 @media(min-width: 480px) and (max-width:719px){
