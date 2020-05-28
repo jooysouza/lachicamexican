@@ -121,18 +121,20 @@ img {
     padding: 10px;
     font-weight: bold;
     border: 2px solid #ffd500;
+    font-size: 12px;
 }
 
 .menu-nav .gradiente p {
     color: #fff;
     text-align: center;
-    padding: 12px;
+    padding: 12px 8px;
     font-weight: bold;
     background: transparent linear-gradient(58deg, #FFD500 10%, #FF5700 100%) 0% 0% no-repeat padding-box;
+    font-size: 12px;
 }
 
 .menu-nav a {
-    padding: 0px 0px 0px 25px;
+    padding: 0px 0px 0px 10px;
     display: block;
 }
 
@@ -484,8 +486,8 @@ li.search {
 
 .carrinho a {
     display: flex;
-    padding-left: 27px;
-    font-size: 17px;
+    padding-left: 28px;
+    font-size: 15px;
     font-weight: bold;
     padding: 8.5px;
 }
@@ -642,8 +644,7 @@ li.search {
     .menu-nav ul {
         border-top: none;
         border-bottom: none;
-        width: 200px;
-        padding-left: 38px;
+        width: 292px;
     }
     .menu-nav .menu1 {
         margin: 10px;
