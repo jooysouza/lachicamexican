@@ -1,69 +1,82 @@
-body, h1, h2, p, ul, li, a {
-	margin: 0px;
-	padding: 0px;
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    
-	font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
     color: #dadada;
     background: #111010;
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	display: block;
+    display: block;
     max-width: 100%;
 }
+
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 .btn {
-	border: 3px solid #FFD500;
-	padding: 10px 30px;
-	color: #FFD500;
-	font-size: 14px;
-	line-height: 20px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: .1em;
+    border: 3px solid #FFD500;
+    padding: 10px 30px;
+    color: #FFD500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
 }
 
 .btn:hover {
-	color: #000;
+    color: #000;
     background: #FFD500;
 }
 
+
 /*Informação*/
-.info{
+
+.info {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
-   
 }
-.info a{
+
+.info a {
     margin: 0 10px 10px 10px;
     border-bottom: solid 2px #FFD500;
 }
+
 .info a {
-    color:#fff;
+    color: #fff;
 }
-.info a.menu_ativo{
+
+.info a.menu_ativo {
     color: #FFD500;
 }
 
+
 /*menu*/
-.menu{
+
+.menu {
     max-width: 960px;
     margin: 0 auto;
     padding: 15px 0;
@@ -72,21 +85,25 @@ img {
     flex-wrap: wrap;
     align-items: center;
 }
+
 .menu-logo {
     padding-top: 10px;
-    
 }
+
 .menu a {
     color: #fff;
     text-transform: uppercase;
 }
-.menu-nav .menu_ativo{
+
+.menu-nav .menu_ativo {
     color: #FFD500;
 }
+
 .menu-nav .menu1 {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
 .menu-nav ul {
     border-top: solid 3px #FFD500;
     border-bottom: solid 3px #FFD500;
@@ -96,8 +113,8 @@ img {
     flex-wrap: wrap;
     width: 347px;
     padding-left: 40px;
-    
 }
+
 .menu-nav .normal p {
     color: #ffd500;
     text-align: center;
@@ -105,26 +122,30 @@ img {
     font-weight: bold;
     border: 2px solid #ffd500;
 }
+
 .menu-nav .gradiente p {
     color: #fff;
     text-align: center;
     padding: 12px;
     font-weight: bold;
     background: transparent linear-gradient(58deg, #FFD500 10%, #FF5700 100%) 0% 0% no-repeat padding-box;
-  
 }
+
 .menu-nav a {
     padding: 0px 0px 0px 25px;
     display: block;
 }
-.menu-nav a:hover{
-	color: #FFD500;
+
+.menu-nav a:hover {
+    color: #FFD500;
 }
 
+
 /*opcao*/
-.opcao{
+
+.opcao {
     max-width: 960px;
-	margin: 0 auto;
+    margin: 0 auto;
     padding: 60px 0;
     display: flex;
     flex-wrap: wrap;
@@ -136,17 +157,19 @@ img {
     padding: 10px;
     padding-bottom: 123px;
     margin: 0 auto;
-    
 }
+
 .call-opcao {
     text-align: center;
     margin-top: -268px;
 }
+
 .opcao-img .ifood {
     margin-top: -249px;
     padding-left: 19px;
     width: 110px;
 }
+
 .opcao-img h2 {
     color: #fff;
     font-size: 1.5em;
@@ -158,6 +181,7 @@ img {
     text-align: center;
     padding-top: 45px;
 }
+
 .opcao-img p {
     color: #fff;
     font-size: 15px;
@@ -169,25 +193,31 @@ img {
     width: 200px;
     margin: 0 auto;
 }
+
 .call-unidade {
     text-align: center;
     margin-top: -266px;
 }
 
+
 /*DESTAQUE*/
-.destaque-container{
+
+.destaque-container {
     max-width: 960px;
     margin: 0 auto;
 }
+
 .destaque-title {
     display: flex;
     flex-wrap: wrap;
 }
-.destaque-unidade{
+
+.destaque-unidade {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
 }
+
 .call-destaque {
     text-align: center;
     margin: 0 auto;
@@ -195,60 +225,64 @@ img {
     padding-left: 131px;
 }
 
-.destaque h1{
-   font-size: 3em;
+.destaque h1 {
+    font-size: 3em;
     padding: 0px 0px 20px 10px;
     color: #fff;
 }
-.destaque-grupo{
+
+.destaque-grupo {
     display: flex;
     flex-wrap: wrap;
-    
 }
+
 .destaque-img {
     padding: 10px;
     margin-bottom: 31px;
     margin-top: 20px;
-    
 }
-.destaque-grupo h3{
+
+.destaque-grupo h3 {
     width: 217px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
 }
-.destaque-grupo p{
+
+.destaque-grupo p {
     width: 217px;
     text-align: center;
     color: #fff;
 }
 
+
 /**Pagina CARDAPIO*/
-.cardapio-container{
+
+.cardapio-container {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
-    
 }
-.cardapio h1{
+
+.cardapio h1 {
     font-size: 3em;
-     padding: 0px 0px 20px 10px;
-     color: #fff;
+    padding: 0px 0px 20px 10px;
+    color: #fff;
 }
- .cardapio-grupo{
-     display: flex;
-     flex-wrap: wrap;
-     
- }
- .cardapio-img h2{
-  
+
+.cardapio-grupo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardapio-img h2 {
     text-align: center;
-    
     color: #fff;
     text-transform: uppercase;
 }
+
 .cardapio-img {
-   margin-bottom: 150px;
+    margin-bottom: 150px;
     padding: 5px;
 }
 
@@ -257,17 +291,20 @@ img {
     margin-top: -300px;
     margin-left: 10px;
 }
+
 .call-bebida {
     text-align: left;
     margin-top: -163px;
     margin-left: 12px;
 }
-.call-sobremesa{
+
+.call-sobremesa {
     text-align: left;
     margin-top: -190px;
     margin-left: 10px;
 }
-.call-kids{
+
+.call-kids {
     text-align: left;
     margin-top: -91px;
     margin-left: 10px;
@@ -275,38 +312,42 @@ img {
 
 
 /*PAGÍNA UNIDADES*/
-.unidades-container{
+
+.unidades-container {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
-    
 }
-.unidades h1{
+
+.unidades h1 {
     font-size: 3em;
-     padding: 0px 0px 20px 10px;
-     color: #fff;
+    padding: 0px 0px 20px 10px;
+    color: #fff;
 }
-.unidades-grupo{
-     display: flex;
-     flex-wrap: wrap;
-     
- }
- .unidades-img h2 {
-     padding-top: 10px;
-    text-align:center;
+
+.unidades-grupo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.unidades-img h2 {
+    padding-top: 10px;
+    text-align: center;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.375em;
 }
+
 .unidades-img p {
-    text-align:center;
-   
+    text-align: center;
 }
+
 .unidades-img {
     padding: 5px;
     margin-bottom: 150px;
 }
-.unidades-img .btn{
+
+.unidades-img .btn {
     border: 3px solid #FFD500;
     padding: 12px 81px;
     color: #FFD500;
@@ -316,28 +357,35 @@ img {
     font-weight: bold;
     letter-spacing: .1em;
 }
-.unidades-img .btn:hover{
-   color:#fff;
-   
+
+.unidades-img .btn:hover {
+    color: #fff;
 }
+
 .call-reservas {
     margin-top: 20px;
 }
+
+
 /*PAGINA SOBRE*/
-.sobre{
+
+.sobre {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
 }
+
 .sobre-container {
-     width: 440px;
+    width: 440px;
     margin: 0 auto;
 }
-.sobre-container h2{
+
+.sobre-container h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 20px;
 }
+
 .sobre-container p {
     padding-top: 20px;
     max-width: 440px;
@@ -345,41 +393,52 @@ img {
     font-size: 1.25em;
     line-height: 25px;
 }
+
+
 /*PÁGINA CONTATO*/
 
-.contato{
+.contato {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
     display: flex;
     flex-wrap: wrap;
 }
+
 .contato-container {
     background: url(../img/imagem_contato.jpg) no-repeat;
     width: 330px;
     height: 514px;
     margin: 0 auto;
 }
-.contato-container h3{
+
+.contato-container h3 {
     text-align: center;
     text-transform: uppercase;
 }
+
 .contato-container h1 {
     padding-top: 20px;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
+
 .contato-container p {
     text-align: center;
     padding-bottom: 13px;
     width: 306px;
     margin: 0 auto;
 }
-.contato-container a{
-   color: #FFD500;
+
+.contato-container a {
+    color: #FFD500;
 }
+
+
 /*PÁGINA PEDIR*/
+
+
 /*MAIN*/
 
 .main-container {
@@ -389,11 +448,14 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
-.pedir-container{
+
+.pedir-container {
     padding-top: 20px;
 }
 
+
 /*SIDE NAV*/
+
 .menu-nav input {
     background: transparent;
     border-color: #FFD500;
@@ -402,13 +464,15 @@ img {
     height: 42px;
     margin-left: 8px;
 }
+
 .txt {
     font-size: 15;
     text-transform: uppercase;
     display: flex;
-   font-size: 12px;
+    font-size: 12px;
     padding-left: 10px !important;
 }
+
 li.search {
     padding: 0px;
     margin: 0 auto;
@@ -417,6 +481,7 @@ li.search {
 .carrinho {
     padding: 10px;
 }
+
 .carrinho a {
     display: flex;
     padding-left: 27px;
@@ -424,7 +489,8 @@ li.search {
     font-weight: bold;
     padding: 8.5px;
 }
-.carrinho img{
+
+.carrinho img {
     padding-right: 4px;
 }
 
@@ -445,111 +511,128 @@ li.search {
 }
 
 .side-pedir li a::before {
-	content: '';
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	top: 5px;
-	margin-right: 15px;
-	position: relative;
-	background-image: url('../img/icones.png');
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    top: 5px;
+    margin-right: 15px;
+    position: relative;
+    background-image: url('../img/icones.png');
 }
+
 .side-pedir .btn {
     color: #000;
     background: #ffd500;
 }
 
 .nav-entradas::before {
-	background-position: 0 0;
+    background-position: 0 0;
 }
+
 .nav-combos::before {
-	background-position: 0 -24px;
+    background-position: 0 -24px;
 }
 
 .nav-marmitex::before {
-	background-position: 0 calc(-24px * 2);
+    background-position: 0 calc(-24px * 2);
 }
 
 .nav-promo::before {
-	background-position: 0 calc(-24px * 3);
+    background-position: 0 calc(-24px * 3);
 }
 
 .nav-sobremesa::before {
-	background-position: 0 calc(-24px * 4);
+    background-position: 0 calc(-24px * 4);
 }
 
 .nav-bebida::before {
-	background-position: 0 calc(-24px * 5);
+    background-position: 0 calc(-24px * 5);
 }
-.pedir-grupo{
+
+.pedir-grupo {
     display: flex;
     flex-wrap: wrap;
 }
-.pedir-img{
-   padding: 7px;
+
+.pedir-img {
+    padding: 7px;
 }
-.pedir-img h3{
+
+.pedir-img h3 {
     text-align: center;
     text-transform: uppercase;
 }
 
 
 /*CARDÁPIO - PRATOS*/
-.cardapio-pratos-container{
+
+.cardapio-pratos-container {
     max-width: 960px;
     margin: 0 auto;
 }
-.cardapio-pratos-title{
+
+.cardapio-pratos-title {
     display: flex;
 }
-.cardapio-pratos-unidade{
+
+.cardapio-pratos-unidade {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
 }
+
 .call-cardapio-pratos {
     text-align: center;
     margin: 0 auto;
     padding-top: 20px;
     padding-left: 131px;
 }
-.cardapio-pratos h1{
-   font-size: 3em;
+
+.cardapio-pratos h1 {
+    font-size: 3em;
     padding: 0px 0px 20px 10px;
     color: #fff;
 }
-.cardapio-pratos-grupo{
+
+.cardapio-pratos-grupo {
     display: flex;
     flex-wrap: wrap;
-    
 }
+
 .cardapio-pratos-img {
     padding: 10px;
     margin-bottom: 31px;
 }
-.cardapio-pratos-grupo h3{
+
+.cardapio-pratos-grupo h3 {
     width: 217px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
 }
-.cardapio-pratos-grupo p{
+
+.cardapio-pratos-grupo p {
     width: 217px;
     text-align: center;
     color: #fff;
 }
 
- /*FOOTER*/
-.footer{
+
+/*FOOTER*/
+
+.footer {
     width: 100%;
-	background: #000;
-	color: #fff;
+    background: #000;
+    color: #fff;
     padding: 2px 0;
     text-align: center;
 }
 
+
 /*Media Querie*/
-@media (max-width:939px){
+
+@media (max-width:939px) {
     .carrinho {
         border-top: none;
         border-bottom: none;
@@ -559,47 +642,48 @@ li.search {
     .menu-nav ul {
         border-top: none;
         border-bottom: none;
-        width: 357px;
+        width: 200px;
         padding-left: 38px;
     }
-    .menu-nav .menu1{
+    .menu-nav .menu1 {
         margin: 10px;
     }
-    .menu{
-        max-width:480px;
+    .menu {
+        max-width: 480px;
         justify-content: center;
     }
-}  
-@media(min-width:200px) and (max-width:479px){
-    .contato-container{
+}
+
+@media(min-width:200px) and (max-width:479px) {
+    .contato-container {
         width: 275px;
         height: 527px;
     }
-    .contato-container p{
+    .contato-container p {
         width: 239px;
     }
     .contato-container h3 {
         font-size: 1.025em;
     }
-    .sobre-container{
+    .sobre-container {
         width: 275px;
     }
     .sobre-container p {
         max-width: 275px;
     }
 }
-@media(min-width: 480px) and (max-width:719px){
-    .destaque-container{
+
+@media(min-width: 480px) and (max-width:719px) {
+    .destaque-container {
         max-width: 480px;
-        
     }
-    .call-destaque{
+    .call-destaque {
         padding-left: 10px;
     }
-    .cardapio-container{
+    .cardapio-container {
         max-width: 480px;
     }
-    .cardapio-img{
+    .cardapio-img {
         margin-bottom: 225px;
     }
     .cardapio-pratos-container {
@@ -607,8 +691,8 @@ li.search {
     }
 }
 
-@media (max-width:479px){
-    .destaque-container{
+@media (max-width:479px) {
+    .destaque-container {
         max-width: 240px;
     }
     .destaque-img {
@@ -617,13 +701,13 @@ li.search {
     .destaque-title {
         margin-top: -44px;
     }
-    .call-destaque{
+    .call-destaque {
         padding-left: 10px;
     }
-    .opcao{
+    .opcao {
         max-width: 360px;
     }
-    .destaque h1{
+    .destaque h1 {
         font-size: 1.25em;
         margin-top: -52px;
     }
@@ -633,7 +717,7 @@ li.search {
     .contato {
         max-width: 480px;
     }
-    .cardapio-img{
+    .cardapio-img {
         margin: 0 auto;
     }
     .call-cardapio {
@@ -648,7 +732,7 @@ li.search {
         padding-bottom: 103px;
         margin-top: -101px;
     }
-    .call-kids{
+    .call-kids {
         padding-bottom: 40px;
     }
     .cardapio-pratos-container {
@@ -658,128 +742,134 @@ li.search {
         font-size: 1.75em;
     }
 }
-@media(min-width:480px) and (max-width:660px){
-    .opcao{
+
+@media(min-width:480px) and (max-width:660px) {
+    .opcao {
         max-width: 416px;
     }
-    .destaque h1{
+    .destaque h1 {
         font-size: 2.1875em;
     }
-} 
-@media(min-width:661px) and (max-width:719px){
-    .opcao-img h2{
+}
+
+@media(min-width:661px) and (max-width:719px) {
+    .opcao-img h2 {
         padding-top: 54px;
         top: -271px;
         font-size: 1.125em;
     }
-    .opcao-img p{
+    .opcao-img p {
         top: -255px;
     }
-    .call-opcao{
+    .call-opcao {
         margin-top: -244px;
     }
-    .call-unidade{
+    .call-unidade {
         margin-top: -242px;
     }
-    .opcao-img.ifood{
+    .opcao-img.ifood {
         margin-top: -237px;
     }
-    .destaque h1{
+    .destaque h1 {
         margin-top: -107px;
         font-size: 2.25em;
     }
-} 
+}
 
-@media(min-width:720px) and (max-width:959px){
-    .destaque-title{
+@media(min-width:720px) and (max-width:959px) {
+    .destaque-title {
         display: block;
     }
     .destaque h1 {
         margin-top: -71px;
     }
-    .opcao-img h2{
+    .opcao-img h2 {
         font-size: 1.025em;
-        top:-282px;
+        top: -282px;
     }
-    .opcao-img p{
-        top:-275px;
+    .opcao-img p {
+        top: -275px;
     }
-    .call-opcao{
+    .call-opcao {
         margin-top: -255;
     }
-    .call-unidade{
+    .call-unidade {
         margin-top: -255px;
     }
-    .call-destaque{
+    .call-destaque {
         padding-left: 10px;
     }
-    .destaque-container{
+    .destaque-container {
         max-width: 720px;
     }
-    .cardapio-container{
+    .cardapio-container {
         max-width: 720px;
     }
-    .cardapio-img{
+    .cardapio-img {
         width: 180px;
     }
-    .call-sobremesa{
+    .call-sobremesa {
         margin-top: -172px;
         margin-left: 10px;
     }
-    .call-kids{
+    .call-kids {
         margin-top: -79px;
     }
-    .call-sobremesa .btn{
+    .call-sobremesa .btn {
         padding: 10px 6px;
     }
     .cardapio-pratos-container {
         max-width: 720px;
     }
-   
 }
-@media(min-width:640px) and (max-width:959px){
+
+@media(min-width:640px) and (max-width:959px) {
     .unidades-container {
         max-width: 649px;
     }
 }
-@media(max-width:639px){
+
+@media(max-width:639px) {
     .unidades-container {
         max-width: 330px;
     }
-    .unidades-img{
-        margin:0 auto;
+    .unidades-img {
+        margin: 0 auto;
     }
-    .call-reservas{
+    .call-reservas {
         margin: 20px 10px 20px 43px;
     }
     .unidades-img .btn {
         padding: 10px 32px;
     }
-    
-}   
+}
+
+
 /*Pagina Pedir*/
-@media(min-width:863px) and (max-width:911px){
-    .pedir-img{
+
+@media(min-width:863px) and (max-width:911px) {
+    .pedir-img {
         width: 218px;
     }
-    
-    
 }
-@media(min-width:761px) and (max-width:862px){
-    .pedir-img{
+
+@media(min-width:761px) and (max-width:862px) {
+    .pedir-img {
         width: 184px;
     }
 }
-@media(min-width:659px) and (max-width:760px){
-   .pedir-img{
-       width: 150px;
-   }
+
+@media(min-width:659px) and (max-width:760px) {
+    .pedir-img {
+        width: 150px;
+    }
 }
-@media(min-width:390px) and (max-width:658px){
-    .pedir-img{
+
+@media(min-width:390px) and (max-width:658px) {
+    .pedir-img {
         width: 163px;
     }
-    .side-pedir{
+    .side-pedir {
         margin-left: 10px;
         max-width: 638px;
     }
@@ -789,30 +879,31 @@ li.search {
         text-align: center;
         padding-top: 20px;
     }
-    .pedir-grupo{
+    .pedir-grupo {
         max-width: 658px;
         margin-top: 14px;
     }
-    
 }
-@media(min-width:390px) and (max-width:489px){
-    .pedir-img{
+
+@media(min-width:390px) and (max-width:489px) {
+    .pedir-img {
         width: 130px;
     }
-    .pedir-img h3{
+    .pedir-img h3 {
         font-size: 0.9375em;
     }
 }
-@media(max-width:389px){
-    .pedir-img{
+
+@media(max-width:389px) {
+    .pedir-img {
         width: 195px;
         margin: 0 auto;
     }
-    .pedir{
-        font-size:1em;
+    .pedir {
+        font-size: 1em;
         text-align: center;
     }
     .side-pedir {
-      margin-left: 10px;
+        margin-left: 10px;
     }
 }
