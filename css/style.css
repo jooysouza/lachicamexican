@@ -121,20 +121,18 @@ img {
     padding: 10px;
     font-weight: bold;
     border: 2px solid #ffd500;
-    font-size: 12px;
 }
 
 .menu-nav .gradiente p {
     color: #fff;
     text-align: center;
-    padding: 12px 8px;
+    padding: 12px;
     font-weight: bold;
     background: transparent linear-gradient(58deg, #FFD500 10%, #FF5700 100%) 0% 0% no-repeat padding-box;
-    font-size: 12px;
 }
 
 .menu-nav a {
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 25px;
     display: block;
 }
 
@@ -486,8 +484,8 @@ li.search {
 
 .carrinho a {
     display: flex;
-    padding-left: 28px;
-    font-size: 15px;
+    padding-left: 27px;
+    font-size: 17px;
     font-weight: bold;
     padding: 8.5px;
 }
@@ -644,7 +642,8 @@ li.search {
     .menu-nav ul {
         border-top: none;
         border-bottom: none;
-        width: 292px;
+        width: 357px;
+        padding-left: 38px;
     }
     .menu-nav .menu1 {
         margin: 10px;
@@ -906,5 +905,110 @@ li.search {
     }
     .side-pedir {
         margin-left: 10px;
+    }
+}
+
+
+/*MENU HAMBUGUER*/
+
+@media(max-width:768px) {
+    .menu {
+        max-width: 150px;
+        justify-content: center;
+        margin-top: -149px;
+    }
+    .menu-nav {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        visibility: hidden;
+        transition: .1s;
+    }
+    .menu-nav.active {
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+    }
+    .menu-nav ul {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        margin-left: -56px;
+    }
+    .menu-nav ul li {
+        list-style: none;
+        margin-top: 50px;
+    }
+    .menu-nav li a {
+        color: #FFD500;
+        font-size: 1.125em;
+        text-decoration: none;
+        transition: .1s;
+        margin: -44px auto;
+    }
+    .menu-nav li a:hover {
+        color: #DF3661;
+    }
+    .menu-hamburguer {
+        padding: 64px 140px;
+        max-width: 30px;
+        cursor: pointer;
+        position: relative;
+    }
+    .menu-hamburguer.active .span-hamburguer {
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 5rem;
+        transition: all .5s ease-in-out;
+        z-index: 1;
+    }
+    .span-hamburguer {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: -108px;
+        right: 224px;
+        border-radius: 5rem;
+        transition: all .5s ease-in-out;
+    }
+    .span-hamburguer:before {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 10px;
+        border-radius: 5rem;
+        transition: all .5s ease-in-out;
+    }
+    .span-hamburguer:after {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 10px;
+        border-radius: 5rem;
+        transition: all .5s ease-in-out;
+    }
+    .menu-hamburguer.active .span-hamburguer::before {
+        bottom: -1px;
+        transform: rotate(45deg);
+        box-shadow: 0 0 0 85vw rgb(17, 16, 16), 0 0 0 85vh rgb(17, 16, 16);
+        border-radius: 5rem;
+    }
+    .menu-hamburguer.active .span-hamburguer::after {
+        top: 4px;
+        transform: rotate(-45deg);
+        border-radius: 5rem;
+        z-index: 1;
     }
 }
