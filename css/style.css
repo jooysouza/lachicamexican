@@ -77,7 +77,7 @@ img {
 /*menu*/
 
 .menu {
-    max-width: 960px;
+    max-width: 920px;
     margin: 0 auto;
     padding: 15px 0;
     display: flex;
@@ -123,7 +123,19 @@ img {
     border: 2px solid #ffd500;
 }
 
-.menu-nav .gradiente p {
+.menu-nav a {
+    padding: 0px 0px 0px 25px;
+    display: block;
+}
+
+.menu-nav a:hover {
+    color: #FFD500;
+}
+
+
+/*menu2*/
+
+.menu-nav-nav .gradiente {
     color: #fff;
     text-align: center;
     padding: 12px;
@@ -131,12 +143,32 @@ img {
     background: transparent linear-gradient(58deg, #FFD500 10%, #FF5700 100%) 0% 0% no-repeat padding-box;
 }
 
-.menu-nav a {
+.menu-nav-nav ul {
+    border-top: solid 3px #FFD500;
+    border-bottom: solid 3px #FFD500;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 347px;
+    padding-left: 40px;
+}
+
+.menu-nav-nav .normal p {
+    color: #ffd500;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #ffd500;
+    margin-right: 10px;
+}
+
+.menu-nav-nav a {
     padding: 0px 0px 0px 25px;
     display: block;
 }
 
-.menu-nav a:hover {
+.menu-nav-nav a:hover {
     color: #FFD500;
 }
 
@@ -639,11 +671,13 @@ li.search {
         width: 378px;
         padding-left: 38px;
     }
-    .menu-nav ul {
+    .menu-nav ul,
+    .menu-nav-nav ul {
         border-top: none;
         border-bottom: none;
         width: 357px;
         padding-left: 38px;
+        padding-top: 48px;
     }
     .menu-nav .menu1 {
         margin: 10px;
@@ -912,6 +946,9 @@ li.search {
 /*MENU HAMBUGUER*/
 
 @media(max-width:768px) {
+    .menu-logo-mobile {
+        margin-top: 154px;
+    }
     .menu {
         max-width: 150px;
         justify-content: center;
@@ -949,7 +986,7 @@ li.search {
         margin: -44px auto;
     }
     .menu-nav li a:hover {
-        color: #DF3661;
+        color: #fff;
     }
     .menu-hamburguer {
         padding: 64px 140px;
